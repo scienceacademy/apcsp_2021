@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
-
+void shuffle();
 typedef struct
 {
     int suit;
@@ -23,6 +23,7 @@ int main(void)
         {
             deck[n].suit = s;
             deck[n].rank = r;
+            n++;
         }
     }
     shuffle();
@@ -31,5 +32,5 @@ int main(void)
 
 void shuffle()
 {
-    
+
 }
